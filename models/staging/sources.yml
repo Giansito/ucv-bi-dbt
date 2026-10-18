@@ -2,13 +2,11 @@ version: 2
 
 sources:
   - name: bronze
-    database: workspace
+    catalog: workspace
     schema: bronze
-    description: "Datos crudos cargados en Bronze."
 
     tables:
       - name: sales_raw
-        description: "Ventas crudas."
-
       - name: products_raw
-        description: "Productos crudos."
+      - name: customers_raw
+      - name: stores_raw
